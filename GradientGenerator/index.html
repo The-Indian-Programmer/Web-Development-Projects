@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Background Generator Using Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav_icon">
+            <img src="https://cssgradient.io/images/logo-55c31c59.svg" alt="" class="icon">
+            <h2 class="icon_text">Css Gradient</h2>
+        </div>
+    </nav>
+    <div class="main_container">
+        <section class="background_gradient" id="gradient"></section>
+        <div class="container">
+            <div class="colorpallete">
+                <input type="color" name="color1" id="color1" value="#FF0000"/>
+                <input type="color" name="color1" id="color2" value="#fff700"/>
+            </div>
+            <div class="degree">
+                <h2 class="degree_text" id="degreetext">360 Deg.</h2>
+                <input type="range" name="degree" id="degree" value="2" max="360" min="1">
+            </div>
+            <div class="code_container">
+                <h2 class="code" id="code">
+                    background: linear-gradient(3deg,#ff0000,#fff700);
+                </h2>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
